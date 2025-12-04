@@ -9,9 +9,9 @@ type LayoutProps = {
 
 export const Layout = ({ children }: LayoutProps): React.JSX.Element => {
   return (
-    <div className="h-screen flex flex-col justify-between px-5">
+    <div className="md:h-screen flex flex-col justify-between px-5">
       <Navbar />
-      <main>{children}</main>
+      <main className="">{children}</main>
       <Footer />
     </div>
   );
