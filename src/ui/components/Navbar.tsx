@@ -33,7 +33,7 @@ const Navbar = (): React.JSX.Element => {
           target="_blank"
           className="cursor-pointer"
         >
-          <img src="/public/x-black.png" alt="x-icon" className="w-5" />
+          <img src="/x-black.png" alt="x-icon" className="w-5" />
         </a>
       </div>
     </nav>
