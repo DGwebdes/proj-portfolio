@@ -1,6 +1,6 @@
 export const ContactForm = () => {
   return (
-    <div>
+    <>
       <h2 className="text-sm uppercase tracking-wider text-gray-400 mb-6 font-medium text-center">
         Contact
       </h2>
@@ -16,7 +16,7 @@ export const ContactForm = () => {
             Name
           </label>
           <input
-            className="w-full p-3 border border-white/10 bg-white/[0.02] rounded-lg focus:bg-white/[0.05] focus:border-white/20 focus:outline-none transition-all text-gray-200 placeholder:text-gray-600"
+            className="w-full p-3 border border-white/10 bg-white/2 rounded-lg focus:bg-white/5 focus:border-white/20 focus:outline-none transition-all text-gray-200 placeholder:text-gray-600"
             type="text"
             id="name"
             name="name"
@@ -31,7 +31,7 @@ export const ContactForm = () => {
             Email
           </label>
           <input
-            className="w-full p-3 border border-white/10 bg-white/[0.02] rounded-lg focus:bg-white/[0.05] focus:border-white/20 focus:outline-none transition-all text-gray-200 placeholder:text-gray-600"
+            className="w-full p-3 border border-white/10 bg-white/2 rounded-lg focus:bg-white/5 focus:border-white/20 focus:outline-none transition-all text-gray-200 placeholder:text-gray-600"
             type="email"
             id="email"
             name="email"
@@ -46,7 +46,7 @@ export const ContactForm = () => {
             Message
           </label>
           <textarea
-            className="w-full p-3 border border-white/10 bg-white/[0.02] rounded-lg focus:bg-white/[0.05] focus:border-white/20 focus:outline-none transition-all text-gray-200 placeholder:text-gray-600 resize-none"
+            className="w-full p-3 border border-white/10 bg-white/2 rounded-lg focus:bg-white/5 focus:border-white/20 focus:outline-none transition-all text-gray-200 placeholder:text-gray-600 resize-none"
             id="message"
             name="message"
             rows={4}
@@ -60,6 +60,6 @@ export const ContactForm = () => {
           Send Message
         </button>
       </form>
-    </div>
+    </>
   );
 };

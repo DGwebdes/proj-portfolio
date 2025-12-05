@@ -17,9 +17,9 @@ export const About = ({ handleToggle, toggleState }: AboutProps) => {
 
       <button
         onClick={handleToggle}
-        className=" bg-yellow-500 text-black px-4 py-2 rounded hover:bg-yellow-600 font-medium mt-5"
+        className="bg-yellow-500/20 backdrop-blur-sm border border-yellow-500/50 text-yellow-400 px-6 py-3 rounded-full shadow-lg hover:bg-yellow-500/30 hover:border-yellow-500 transition-all z-50 font-medium shadow-stone-950 mt-5"
       >
-        {toggleState ? "Contact Me" : "See My Skills"}
+        {toggleState ? "See Projects" : "See Toolbox"}
       </button>
     </div>
   );
