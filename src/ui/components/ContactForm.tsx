@@ -1,9 +1,7 @@
 import { useForm, ValidationError } from "@formspree/react";
 
 export const ContactForm = () => {
-  const [state, handleSubmit, reset] = useForm(
-    "https://formspree.io/f/mnnjeedo"
-  );
+  const [state, handleSubmit, reset] = useForm("mnnjeedo");
 
   return (
     <>
