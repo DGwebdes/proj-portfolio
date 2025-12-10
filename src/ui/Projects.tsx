@@ -34,8 +34,10 @@ export const Projects = () => {
               href={proj.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-yellow-500
-            hover:text-yellow-400 transition-colors flex items-center gap-1"
+              className={`text-yellow-500
+            hover:text-yellow-400 transition-colors flex items-center gap-1 ${
+              proj.link ? "" : "pointer-events-none"
+            }`}
             >
               {proj.link ? "Visit Project →" : "No Link Available"}
             </a>
@@ -44,8 +46,10 @@ export const Projects = () => {
               href={proj.repo}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400
-            hover:text-gray-300 transition-colors flex items-center gap-1"
+              className={`text-gray-400
+            hover:text-gray-300 transition-colors flex items-center gap-1 ${
+              proj.repo ? "" : "pointer-events-none"
+            }`}
             >
               {proj.repo ? "View Repo → " : "No Repo Available"}
             </a>

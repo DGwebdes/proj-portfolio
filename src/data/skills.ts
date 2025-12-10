@@ -9,7 +9,7 @@ export const skills: skillList = [
     items: [
       { url: `/svg/ts.svg`, language: `Typescript` },
       { url: `/svg/re.svg`, language: `React` },
-      { url: `/svg/ne.svg`, language: `Nextjs` },
+      // { url: `/svg/ne.svg`, language: `Nextjs` },
       { url: `/svg/tw.svg`, language: `Tailwind` },
     ],
   },

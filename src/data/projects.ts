@@ -4,15 +4,15 @@ export const projects = [
     description:
       "Personal project I developed to help users learn English pronunciation.",
     stack: ["React", "TypeScript", "Tailwindcss"],
-    link: "",
+    link: "https://dgwebdes.github.io/proj-pronounceIt/",
     repo: "https://github.com/DGwebdes/proj-pronounceIt",
   },
   {
     title: "Project Idein",
     description:
-      "An app that allows user to save voice recordings as text notes",
+      "An app that allows user to save voice recordings as text notes. NOTE: Currently disabled due to Shai-Hulud infected dependencies. Under Revision",
     stack: ["React", "Tailwindcss", "Firebase", "Clerk", "Sentry"],
-    link: "https://idein.pt",
+    link: "",
     repo: "https://github.com/DGwebdes/proj-idein",
   },
   {

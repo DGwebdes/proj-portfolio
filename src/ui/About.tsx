@@ -6,7 +6,10 @@ type AboutProps = {
 export const About = ({ handleToggle, toggleState }: AboutProps) => {
   return (
     <div className="flex flex-col items-center justify-center gap-2 md:gap-4">
-      <img src="/eu.webp" className="w-75 rounded-2xl drop-shadow-blue-50" />
+      <img
+        src="/me.png"
+        className="w-75 rounded-full drop-shadow-yellow-950 shadow-stone-950"
+      />
       <h1 className="text-3xl font-extrabold">
         Hi!🤙I'm{" "}
         <span className="text-yellow-500 tracking-wide">Dielan Garve</span>
